@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Torch Email Demo",
+  "version": "0.1.0",
+  "description": "Gmail Demo maker",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://mail.google.com/mail/*"]
+  }]
+}
